@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>idea使用JRebel给开发提提速</title>
+      <link href="/article/99ff5d2f.html"/>
+      <url>/article/99ff5d2f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="JRebel简介"><a href="#JRebel简介" class="headerlink" title="JRebel简介"></a>JRebel简介</h1><p>使用JRebel，您不再等待构建和重新部署来进行代码更改。只需编写代码并刷新浏览器即可。👍</p><p><img src="https://cdn.jsdelivr.net/gh/xihuanxiaorang/images/img/202110161517706.png" alt="img"></p><ul><li><p>跳过重建和重新部署：通过在开发过程中跳过重建和重新部署步骤，Java开发人员可以花更多的时间进行开发，从而减少等待的时间</p></li><li><p>实时变化可见性：当您对代码进行更改时，它会立即反映出来。不再等待代码更改是否达到预期效果</p></li><li><p>维护应用程序状态：通过维护应用程序状态，Java开发人员可以将注意力集中在手头的任务上，而不是挖掘代码层</p></li><li><p>JRebel适用于您的项目：JRebel很容易集成到您的项目中，支持100多种技术，包括流行的框架、应用服务器、IDE和JVM</p></li><li><p>专用集成和故障排除支持：JRebel为您的项目提供专门的集成和故障排除支持，包括一个支持文档库，以帮助您完成项目</p></li><li><p>JRebel无缝集成到您的堆栈中：JRebel支持100多个框架，以及几乎所有流行的应用服务器、IDE和JVM语言，几乎可以为所有Java开发堆栈提供现成的支持</p></li></ul><h1 id="如何使用JRebel🤔"><a href="#如何使用JRebel🤔" class="headerlink" title="如何使用JRebel🤔"></a>如何使用JRebel🤔</h1><h2 id="安装JRebel"><a href="#安装JRebel" class="headerlink" title="安装JRebel"></a>安装JRebel</h2><p>idea 中 <code>File -&gt; Settings -&gt; Plugins -&gt; Marketplace -&gt; JRebel</code>，找到后点击安装插件即可。</p><p>如果搜索不到或者下载速度缓慢，可以去<a href="https://plugins.jetbrains.com/plugin/4441-jrebel-and-xrebel-for-intellij">官网</a>下载后再离线安装此插件。<a href="https://www.yuque.com/attachments/yuque/0/2021/zip/1554080/1634363933524-4fd0967d-ab5c-475c-bb7e-427f835f8164.zip">📎jr-ide-intellij-2021.4.0.zip</a></p><h2 id="激活JRebel🚩"><a href="#激活JRebel🚩" class="headerlink" title="激活JRebel🚩"></a>激活JRebel🚩</h2><p>安装完成重启之后，进入 idea 设置界面，找到 <code>JRebel &amp; XRebel</code>，点击激活按钮。</p><p><img src="https://cdn.jsdelivr.net/gh/xihuanxiaorang/images/img/202110161517047.png" alt="img"></p><p>第一行 url 填写：<code>https://jrebel.qekang.com/</code> 固定值 + guid，其中可以通过<a href="https://www.guidgen.com/">网站</a>生成guid</p><p>如 <code>https://jrebel.qekang.com/7d7153ff-5a75-49d0-9e32-0aff17e656d5</code>。</p><p>第二行的邮箱可以随便填写。</p><h2 id="配置JRebel离线工作"><a href="#配置JRebel离线工作" class="headerlink" title="配置JRebel离线工作"></a>配置JRebel离线工作</h2><p>将工作模式改成离线工作！！！否则会有意想不到的麻烦</p><p><img src="https://cdn.jsdelivr.net/gh/xihuanxiaorang/images/img/202110161517073.png" alt="img"></p><h2 id="测试JRebel是否生效"><a href="#测试JRebel是否生效" class="headerlink" title="测试JRebel是否生效"></a>测试JRebel是否生效</h2><p>使用 JRebel Debug 启动项目，访问 test 接口，返回 “test”，将返回值改为 “test123”，使用快捷键 <code>Ctrl+F9</code> 或者点击锤子🔨重新编译项目，可以看到有一个 class 文件被重新加载，再次访问 test 接口，返回 “test123”，说明咋们已经成功使用 JRebel。✌✌✌<img src="https://cdn.jsdelivr.net/gh/xihuanxiaorang/images/img/202110161517760.gif" alt="img"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java开发 </tag>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 开发工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>利用宝塔面板+docker搭建密码管理器(Bitwarden)</title>
       <link href="/article/ce207da.html"/>
       <url>/article/ce207da.html</url>
